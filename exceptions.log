@@ -1,0 +1,52 @@
+Oct 25, 2021 10:38:52 AM ro.sci.tema09_student_repository.Main main
+INFO: Student added successfully.
+Oct 25, 2021 10:38:52 AM ro.sci.tema09_student_repository.Main main
+INFO: Student added successfully.
+Oct 25, 2021 10:38:52 AM ro.sci.tema09_student_repository.Main main
+INFO: Student added successfully.
+Oct 25, 2021 10:38:52 AM ro.sci.tema09_student_repository.Main main
+SEVERE: Gender should be 'M or 'F
+java.lang.Exception
+	at ro.sci.tema09_student_repository.Main.main(Main.java:65)
+
+Oct 25, 2021 10:38:52 AM ro.sci.tema09_student_repository.Main main
+SEVERE: Last name or first name field may be empty
+java.lang.Exception
+	at ro.sci.tema09_student_repository.Main.main(Main.java:74)
+
+Oct 25, 2021 10:38:52 AM ro.sci.tema09_student_repository.Main main
+SEVERE: Last name or first name field may be empty
+java.lang.Exception
+	at ro.sci.tema09_student_repository.Main.main(Main.java:83)
+
+Oct 25, 2021 10:38:52 AM ro.sci.tema09_student_repository.Main main
+SEVERE: Date of birth should be between 1900 and current year
+java.lang.Exception
+	at ro.sci.tema09_student_repository.Main.main(Main.java:92)
+
+Oct 25, 2021 10:38:52 AM ro.sci.tema09_student_repository.Main main
+INFO: Student deleted successfully
+Oct 25, 2021 10:38:52 AM ro.sci.tema09_student_repository.Main main
+SEVERE: The student does not exist
+ro.sci.tema09_student_repository.exceptions.StudentNotFoundException: The student does not exist
+	at ro.sci.tema09_student_repository.Main.main(Main.java:110)
+
+Oct 25, 2021 10:38:52 AM ro.sci.tema09_student_repository.Main main
+SEVERE: The student does not exist
+ro.sci.tema09_student_repository.exceptions.StudentNotFoundException: The student does not exist
+	at ro.sci.tema09_student_repository.Main.main(Main.java:119)
+
+Oct 25, 2021 10:38:52 AM ro.sci.tema09_student_repository.Main main
+INFO: Student retrieved successfully
+Oct 25, 2021 10:38:52 AM ro.sci.tema09_student_repository.Main main
+SEVERE: There are no 32 years old students
+java.lang.Exception
+	at ro.sci.tema09_student_repository.Main.main(Main.java:137)
+
+Oct 25, 2021 10:38:52 AM ro.sci.tema09_student_repository.Main main
+SEVERE: There seems to be a problem with the age
+java.lang.Exception
+	at ro.sci.tema09_student_repository.Main.main(Main.java:146)
+
+Oct 25, 2021 10:38:52 AM ro.sci.tema09_student_repository.Main main
+INFO: Students sorted successfully
