@@ -25,7 +25,6 @@ public class Main {
         FestivalStatisticsThread statsThread = new FestivalStatisticsThread(gate, generateAttendees);
         statsThread.start();
         generateAttendees.start();
-        
 
     }
 }
